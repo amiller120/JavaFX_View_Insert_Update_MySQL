@@ -85,7 +85,7 @@ public class AccessUpdateStaffTable extends Application {
 			System.out.println("Driver loaded");
 			
 			// Establish a connection
-			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/javabook", "scott", "tiger");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/javabook", "username", "password");
 			connection.setAutoCommit(false);
 			System.out.println("Database connected");
 			
